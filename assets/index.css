@@ -223,3 +223,25 @@ main .wrapper__keys__grid__btn--operations {
   position: relative;
   box-shadow: 0 4px #b4a597;
 }
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0 0 0.5rem 0.5rem;
+  transition: 0.2s ease-in-out;
+  a {
+    color: #d03f2f;
+  }
+}
+
+.theme2 .footer {
+  color: black;
+}
+
+.theme3 .footer {
+  color: #ffe53d;
+}
